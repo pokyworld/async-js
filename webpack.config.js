@@ -4,9 +4,10 @@ const webpack = require('webpack');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+require('babel-polyfill');
 
 module.exports = {
-    entry: ["./src/index.js", "./src/scss/main.scss"],
+    entry: ['babel-polyfill', "./src/index.js", "./src/scss/main.scss"],
     output: {
         path: path.join(__dirname, "public"),
         filename: "dist/app.bundle.js"

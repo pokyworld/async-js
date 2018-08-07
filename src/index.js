@@ -12,8 +12,8 @@
 
 // Asynchronous JS
 
-import "./async-js/callbacks";
-// import "./async-js/promises";
+// import "./async-js/callbacks";
+import "./async-js/promises";
 
 
 // registerServiceWorker();

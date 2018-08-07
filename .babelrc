@@ -5,10 +5,13 @@
     "presets" : [
         "env",
         "es2016",
-        "stage-2"
+        "es2017",
+        "stage-2",
+        "latest"
     ],
     "plugins": [
-        "transform-class-properties"
+        "transform-class-properties",
+        "transform-regenerator"
     ]
 
 }
