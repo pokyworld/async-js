@@ -1,11 +1,19 @@
 // import registerServiceWorker from "./registerServiceWorker";
 
-// import "./components/1_basic_literals";
-// import "./components/2_constructor";
-// import "./components/3_prototypes";
-// import "./components/4_inheritance";
-// import "./components/5_object_create";
-// import "./components/6_classes";
-// import "./components/7_subclasses";
+// Object Orientated JS Programming
+
+// import "./oop-js/1_basic_literals";
+// import "./oop-js/2_constructor";
+// import "./oop-js/3_prototypes";
+// import "./oop-js/4_inheritance";
+// import "./oop-js/5_object_create";
+// import "./oop-js/6_classes";
+// import "./oop-js/7_subclasses";
+
+// Asynchronous JS
+
+import "./async-js/callbacks";
+// import "./async-js/promises";
+
 
 // registerServiceWorker();
